@@ -54,7 +54,8 @@ ul {
 nav a {
   text-decoration: none;
   list-style-type: none;
-  white-space: pre-line;
+  display: flex;
+  white-space: nowrap;
   color: #6c8fe0;
 }
 
