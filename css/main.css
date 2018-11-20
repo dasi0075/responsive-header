@@ -5,9 +5,9 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: Ubuntu;
-  font: small-caps;
+  font: normal 100%;
   line-height: 1.3;
+  font-family: Ubuntu;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
