@@ -28,6 +28,7 @@ header {
 }
 
 h1 {
+  font-size: 2rem;
   margin-left: 3.5rem;
   margin-right: auto;
   margin-top: 0;
@@ -42,6 +43,8 @@ nav ul {
   list-style: none;
   list-style-type: none;
   text-decoration-line: none;
+  font-size: 1.125rem;
+  font-weight: normal;
 }
 
 ul {
@@ -110,11 +113,15 @@ nav a:hover {
   h1 {
     margin-left: .9rem;
     margin-bottom: 0;
-    display: block;
+    display: flex;
+    width: 50%;
   }
 
-  nav {
-    margin-left: 16rem;
+  nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 24%;
+    align-content: stretch;
   }
 
   ul {
