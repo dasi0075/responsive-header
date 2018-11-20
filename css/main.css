@@ -91,6 +91,11 @@ a:hover {
   text-align: center;
   }
 
+  h1 {
+    margin-left: 10rem;
+    margin-right: auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
