@@ -77,10 +77,6 @@ a:hover {
   text-align: center;
   }
 
-  a {
-    text-align: center;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -88,6 +84,13 @@ a:hover {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
