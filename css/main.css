@@ -54,6 +54,7 @@ ul {
 nav a {
   text-decoration: none;
   list-style-type: none;
+  white-space: pre-line;
   color: #6c8fe0;
 }
 
@@ -121,7 +122,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    white-space: normal;
+    white-space: pre-line;
     width: 68%;
   }
 
