@@ -140,4 +140,12 @@ nav a:hover {
     font-size: 130%;
   }
 
+  h1 {
+    width: 25%;
+  }
+
+  nav a {
+    width: 50%;
+  }
+
 }
